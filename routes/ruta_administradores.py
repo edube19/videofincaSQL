@@ -45,3 +45,7 @@ def delete(id):
 @administradores.route("/about")
 def about():
     return "about"
+
+
+
+
