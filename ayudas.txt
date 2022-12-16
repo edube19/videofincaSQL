@@ -1,0 +1,5 @@
+(env) PS C:\Users\practicante02\Desktop\practicando\crud-sqlalchemy> pip install flask
+
+(env) PS C:\Users\practicante02\Desktop\practicando\crud-sqlalchemy> pip install flask-sqlalchemy
+
+(env) PS C:\Users\practicante02\Desktop\practicando\crud-sqlalchemy> pip install mysqlclient
