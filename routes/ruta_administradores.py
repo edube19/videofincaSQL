@@ -24,8 +24,8 @@ def add_contact():
     if not database_exists(engine.url):
         create_database(engine.url)
 
-    print(database_exists(engine.url))
-
+    #print(database_exists(engine.url))
+    #print(type(database_exists(engine.url))) es booleano
     return "add_contact()",data_base
 
 @administradores.route("/update")
