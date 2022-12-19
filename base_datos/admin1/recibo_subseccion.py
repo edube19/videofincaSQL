@@ -1,5 +1,6 @@
 from utils.db_admins import db_admins
 class Recibo_subseccion(db_admins.Model):
+    #__bind_key__ = 'two'
     _tablename__ = "recibo_subseccion"
     id_subseccion = db_admins.Column(db_admins.Integer, primary_key=True,nullable=False)
     nombre = db_admins.Column(db_admins.String(45),nullable=False,unique=True)

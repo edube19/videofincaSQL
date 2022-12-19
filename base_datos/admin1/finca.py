@@ -1,5 +1,6 @@
 from utils.db_admins import db_admins
 class Finca(db_admins.Model):
+    #__bind_key__ = 'two'
     _tablename__ = "finca"
     id = db_admins.Column(db_admins.Integer, primary_key=True,nullable=False)
     admin_id = db_admins.Column(db_admins.Integer,nullable=False,unique=True)
